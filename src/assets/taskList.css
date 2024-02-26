@@ -1,0 +1,53 @@
+.tasklist-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.task-container {
+    background: #fff;
+    height: 200px;
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 15px;
+    margin: 15px auto;
+    box-shadow:  0  0  1px rgba(0,  0,  0,  0.05);
+
+}
+.status {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 15px;
+}
+.action-container {
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    color: #000;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    margin: 5px;
+    cursor: pointer;
+}
+.task-container:hover .action-container {
+    display: block;
+}
+
+.create-formulaire {
+    width: 520px;
+}
+.text-area {
+    width: 430px;
+    height: 75px;
+}

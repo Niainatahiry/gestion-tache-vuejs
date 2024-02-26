@@ -1,0 +1,85 @@
+.main-container {
+    position: absolute;
+    background: #E3E1D9;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .app-container {
+    width: 80%;
+    height: 85%;
+    background: #FDF0D1 ;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    overflow: hidden;
+  }
+  
+  
+  .sidebar {
+    height:  100%;
+    position: relative;
+    background:  #AC7D88;
+  }
+
+/* styles.css */
+
+
+a {
+    text-decoration: none;
+    height: 25px;
+    margin: 7px auto;
+    display: block;
+    padding: 15px;
+    background-color: #85586F;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+a:hover {
+    background-color: rgb(165, 115, 141);
+}
+a span {
+  display: flex;
+  align-items: center;
+}
+
+.router-link-active {
+    background: #ac7290;
+}
+.router-link-active:hover {
+    background: #ac7290;
+}
+
+.nav-icon {
+  width: 24px;
+  height: auto;
+}
+
+.button-deconnexion {
+  border: none;
+  background: #85586F;
+  color: #fff;
+  width: 100%;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 40px;
+}
+.button-deconnexion:hover {
+  background: #ac7290;
+  
+}

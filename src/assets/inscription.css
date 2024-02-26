@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.inscription-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.title-description-container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title-description {
+    width: 90%;
+    height: 85%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.title {
+    margin-bottom: 150px;
+}
+.title h1{
+    font-size: 65px;
+    margin: 0;
+    padding: 0;
+}
+.title p {
+    font-size: 27px;
+    margin: 0 20px;
+    padding: 0;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;align-items: center;
+}
+.text p {
+    width: 80%;
+    font-size: 18px;
+}
+.text a {
+    background: inherit;
+    border:2px solid #7E2553;
+    color: #7E2553;
+    font-size: 18px;
+    padding: 10px 35px;
+}
+.text a:hover {
+    background-color: #7E2553;
+    color: #fff;
+    border-color: #7E2553;
+}
+
+.description-image {
+    width: 230px;
+    height: auto;
+}
+
+.inscription-container:before {
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background: #cccccc75;
+    z-index: 1;
+    inset: 0;
+    margin: auto;
+}
+
+.formulaire-container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulaire {
+    width: 90%;
+    height: 85%;
+    background: #fff;
+    position: relative;
+}
+
+.inscription-formulaire {
+    height: 100%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+.inscription-formulaire label {
+    font-size: 16px;
+}
+.inscription-formulaire input {
+    width: 400px;
+    height: 55px;
+    outline: none;
+    font-size: 18px;
+    border: 1px solid rgba(192, 192, 192, 0.583);
+    padding-left: 30px;
+}
+.inscription-formulaire input::placeholder {
+    color: rgba(192, 192, 192, 0.58);
+}
+.show-passowrd-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.show-passowrd-container input[type="checkbox"] {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    margin-left: 45px;
+}
+
+.show-passowrd-container span {
+    width: fit-content;
+    margin-left: 5px;
+}
+  
+.inscription-formulaire button {
+    border: none;
+    background: #7E2553;
+    color: #fff;
+    padding: 15px 60px;
+    font-size: 18px;
+    margin-top: 40px;
+}
